@@ -95,4 +95,9 @@ public class MenuController : MonoBehaviour
         PlayerPrefs.DeleteAll();
         Application.Quit();
     }
+
+    public void DeleteCash()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }

@@ -28,7 +28,7 @@ public class Score : MonoBehaviour
         finalscore += score;
         floor++;
 
-        if (floor == 9) _finalScore.text = finalscore.ToString() + " / 50";
+        if (floor == 10) _finalScore.text = finalscore.ToString() + " / 50";
 
         print(floor);
         print(score);
